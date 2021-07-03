@@ -102,7 +102,7 @@ func (n Node) CordonAndDrain(nodeName string) error {
 	}
 
 	log.Info().Msg("Sleeping 30 seconds before draining the node")
-	time.Sleep(30 * time.Second)
+	time.Sleep(45 * time.Second)
 
 	// Delete all pods on the node
 	log.Info().Msg("Draining the node")
