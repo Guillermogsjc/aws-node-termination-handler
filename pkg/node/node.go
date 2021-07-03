@@ -100,6 +100,10 @@ func (n Node) CordonAndDrain(nodeName string) error {
 	if err != nil {
 		return err
 	}
+
+	log.Info().Msg("Sleeping 30 seconds before draining the node")
+	time.Sleep(30 * time.Second)
+
 	// Delete all pods on the node
 	log.Info().Msg("Draining the node")
 	node, err := n.fetchKubernetesNode(nodeName)
