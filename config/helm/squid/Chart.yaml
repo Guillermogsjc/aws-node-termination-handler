@@ -3,7 +3,7 @@ name: squid
 description: A Helm chart for Squid
 version: 0.0.1
 appVersion: 1.0.0
-home: https://github.com/aws/aws-node-termination-handler
+home: https://github.com/Guillermogsjc/aws-node-termination-handler
 icon: https://raw.githubusercontent.com/aws/eks-charts/master/docs/logo/aws.png
 sources:
-  - https://github.com/aws/aws-node-termination-handler/test/squid
+  - https://github.com/Guillermogsjc/aws-node-termination-handler/test/squid

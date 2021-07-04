@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	h "github.com/aws/aws-node-termination-handler/pkg/test"
+	h "github.com/Guillermogsjc/aws-node-termination-handler/pkg/test"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/autoscaling"
 )

@@ -90,7 +90,7 @@ validate_args() {
 
 sync_local_tags_from_remote() {
     # setup remote upstream tracking to fetch tags
-    git remote add the-real-upstream https://github.com/aws/aws-node-termination-handler.git &> /dev/null || true
+    git remote add the-real-upstream https://github.com/Guillermogsjc/aws-node-termination-handler.git &> /dev/null || true
     git fetch the-real-upstream
 
     # delete all local tags

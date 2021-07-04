@@ -3,7 +3,7 @@ If you would like to build and run the project locally you can follow these step
 
 Clone the repo:
 ```
-git clone https://github.com/aws/aws-node-termination-handler.git
+git clone https://github.com/Guillermogsjc/aws-node-termination-handler.git
 ```
 Build the latest version of the docker image:
 ```

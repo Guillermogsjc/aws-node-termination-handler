@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-node-termination-handler/pkg/node"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/node"
 )
 
 // DrainTask defines a task to be run when draining a node

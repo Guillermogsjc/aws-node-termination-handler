@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/Masterminds/sprig/v3"
-	"github.com/aws/aws-node-termination-handler/pkg/config"
-	"github.com/aws/aws-node-termination-handler/pkg/ec2metadata"
-	"github.com/aws/aws-node-termination-handler/pkg/monitor"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/config"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/ec2metadata"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/monitor"
 	"github.com/rs/zerolog/log"
 )
 

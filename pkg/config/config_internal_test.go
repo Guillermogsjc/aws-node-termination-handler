@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"testing"
 
-	h "github.com/aws/aws-node-termination-handler/pkg/test"
+	h "github.com/Guillermogsjc/aws-node-termination-handler/pkg/test"
 )
 
 // All of these needed for TestIsConfigProvided

@@ -22,10 +22,10 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/aws/aws-node-termination-handler/pkg/config"
-	"github.com/aws/aws-node-termination-handler/pkg/interruptioneventstore"
-	"github.com/aws/aws-node-termination-handler/pkg/monitor"
-	h "github.com/aws/aws-node-termination-handler/pkg/test"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/config"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/interruptioneventstore"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/monitor"
+	h "github.com/Guillermogsjc/aws-node-termination-handler/pkg/test"
 )
 
 const (

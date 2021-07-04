@@ -18,7 +18,7 @@ package uptime
 import (
 	"testing"
 
-	h "github.com/aws/aws-node-termination-handler/pkg/test"
+	h "github.com/Guillermogsjc/aws-node-termination-handler/pkg/test"
 )
 
 func TestUptime(t *testing.T) {

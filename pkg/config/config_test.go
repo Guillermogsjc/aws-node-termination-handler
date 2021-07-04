@@ -19,8 +19,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/aws-node-termination-handler/pkg/config"
-	h "github.com/aws/aws-node-termination-handler/pkg/test"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/config"
+	h "github.com/Guillermogsjc/aws-node-termination-handler/pkg/test"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 )

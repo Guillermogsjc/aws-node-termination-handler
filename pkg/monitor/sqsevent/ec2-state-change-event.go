@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aws/aws-node-termination-handler/pkg/monitor"
-	"github.com/aws/aws-node-termination-handler/pkg/node"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/monitor"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/node"
 	"github.com/aws/aws-sdk-go/service/sqs"
 )
 

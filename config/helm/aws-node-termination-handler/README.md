@@ -1,6 +1,6 @@
 # AWS Node Termination Handler
 
-AWS Node Termination Handler Helm chart for Kubernetes. For more information on this project see the project repo at https://github.com/aws/aws-node-termination-handler.
+AWS Node Termination Handler Helm chart for Kubernetes. For more information on this project see the project repo at https://github.com/Guillermogsjc/aws-node-termination-handler.
 
 ## Prerequisites
 
@@ -85,7 +85,7 @@ Parameter | Description | Default
 `podMonitor.sampleLimit` | Number of scraped samples accepted | `5000`
 `podMonitor.labels` | Additional PodMonitor metadata labels | `{}`
 `podMonitor.namespace` | Override podMonitor Helm release namespace | `{{ .Release.Namespace }}`
-`emitKubernetesEvents` | If `true`, Kubernetes events will be emitted when interruption events are received and when actions are taken on Kubernetes nodes. In IMDS Processor mode a default set of annotations with all the node metadata gathered from IMDS will be attached to each event. More information [here](https://github.com/aws/aws-node-termination-handler/blob/main/docs/kubernetes_events.md) | `false`
+`emitKubernetesEvents` | If `true`, Kubernetes events will be emitted when interruption events are received and when actions are taken on Kubernetes nodes. In IMDS Processor mode a default set of annotations with all the node metadata gathered from IMDS will be attached to each event. More information [here](https://github.com/Guillermogsjc/aws-node-termination-handler/blob/main/docs/kubernetes_events.md) | `false`
 `kubernetesExtraEventsAnnotations` | A comma-separated list of `key=value` extra annotations to attach to all emitted Kubernetes events. Example: `first=annotation,sample.annotation/number=two"` | None
 
 ### AWS Node Termination Handler - Queue-Processor Mode Configuration

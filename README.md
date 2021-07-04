@@ -20,7 +20,7 @@
   </a>
 </p>
 
-![NTH Continuous Integration and Release](https://github.com/aws/aws-node-termination-handler/workflows/NTH%20Continuous%20Integration%20and%20Release/badge.svg)
+![NTH Continuous Integration and Release](https://github.com/Guillermogsjc/aws-node-termination-handler/workflows/NTH%20Continuous%20Integration%20and%20Release/badge.svg)
 
 <div>
 <hr>
@@ -101,10 +101,10 @@ The termination handler DaemonSet installs into your cluster a [ServiceAccount](
 You can use kubectl to directly add all of the above resources with the default configuration into your cluster.
 
 ```
-kubectl apply -f https://github.com/aws/aws-node-termination-handler/releases/download/v1.13.1/all-resources.yaml
+kubectl apply -f https://github.com/Guillermogsjc/aws-node-termination-handler/releases/download/v1.13.1/all-resources.yaml
 ```
 
-For a full list of releases and associated artifacts see our [releases page](https://github.com/aws/aws-node-termination-handler/releases).
+For a full list of releases and associated artifacts see our [releases page](https://github.com/Guillermogsjc/aws-node-termination-handler/releases).
 
 #### Helm
 
@@ -379,12 +379,12 @@ Queue Processor needs an **sqs queue url** to function; therefore, manifest chan
 Minimal Config:
 
 ```
-curl -L https://github.com/aws/aws-node-termination-handler/releases/download/v1.13.1/all-resources-queue-processor.yaml -o all-resources-queue-processor.yaml
+curl -L https://github.com/Guillermogsjc/aws-node-termination-handler/releases/download/v1.13.1/all-resources-queue-processor.yaml -o all-resources-queue-processor.yaml
 <open all-resources-queue-processor.yaml and update QUEUE_URL value>
 kubectl apply -f ./all-resources-queue-processor.yaml
 ```
 
-For a full list of releases and associated artifacts see our [releases page](https://github.com/aws/aws-node-termination-handler/releases).
+For a full list of releases and associated artifacts see our [releases page](https://github.com/Guillermogsjc/aws-node-termination-handler/releases).
 
 </details>
 
@@ -435,12 +435,12 @@ The termination handler relies on the following metadata endpoints to function p
 For build instructions please consult [BUILD.md](./BUILD.md).
 
 ## Communication
-* If you've run into a bug or have a new feature request, please open an [issue](https://github.com/aws/aws-node-termination-handler/issues/new).
+* If you've run into a bug or have a new feature request, please open an [issue](https://github.com/Guillermogsjc/aws-node-termination-handler/issues/new).
 * You can also chat with us in the [Kubernetes Slack](https://kubernetes.slack.com) in the `#provider-aws` channel
 * Check out the open source [Amazon EC2 Spot Instances Integrations Roadmap](https://github.com/aws/ec2-spot-instances-integrations-roadmap) to see what we're working on and give us feedback!
 
 ##  Contributing
-Contributions are welcome! Please read our [guidelines](https://github.com/aws/aws-node-termination-handler/blob/main/CONTRIBUTING.md) and our [Code of Conduct](https://github.com/aws/aws-node-termination-handler/blob/main/CODE_OF_CONDUCT.md)
+Contributions are welcome! Please read our [guidelines](https://github.com/Guillermogsjc/aws-node-termination-handler/blob/main/CONTRIBUTING.md) and our [Code of Conduct](https://github.com/Guillermogsjc/aws-node-termination-handler/blob/main/CODE_OF_CONDUCT.md)
 
 ## License
 This project is licensed under the Apache-2.0 License.

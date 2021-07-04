@@ -1,4 +1,4 @@
-module github.com/aws/aws-node-termination-handler
+module github.com/Guillermogsjc/aws-node-termination-handler
 
 go 1.16
 

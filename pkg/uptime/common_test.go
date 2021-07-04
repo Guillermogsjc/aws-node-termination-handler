@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	h "github.com/aws/aws-node-termination-handler/pkg/test"
+	h "github.com/Guillermogsjc/aws-node-termination-handler/pkg/test"
 )
 
 const testFile = "test.out"

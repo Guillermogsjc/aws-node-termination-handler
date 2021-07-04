@@ -20,8 +20,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/aws/aws-node-termination-handler/pkg/ec2metadata"
-	h "github.com/aws/aws-node-termination-handler/pkg/test"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/ec2metadata"
+	h "github.com/Guillermogsjc/aws-node-termination-handler/pkg/test"
 )
 
 func TestRequestV1(t *testing.T) {

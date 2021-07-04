@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-node-termination-handler/pkg/ec2metadata"
-	"github.com/aws/aws-node-termination-handler/pkg/monitor"
-	"github.com/aws/aws-node-termination-handler/pkg/node"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/ec2metadata"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/monitor"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/node"
 )
 
 const (

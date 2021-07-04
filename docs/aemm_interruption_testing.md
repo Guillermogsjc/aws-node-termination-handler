@@ -73,15 +73,15 @@ For more ways of configuring AEMM check out the [Helm configuration page](https:
 AEMM started out as a test server for aws-node-termination-handler's end-to-end tests in this repo. We use AEMM throughout
 our end to end tests to create interruption notices.
 
-The e2e tests install aws-node-termination-handler using Helm and set the metadata url [here](https://github.com/aws/aws-node-termination-handler/blob/main/test/e2e/spot-interruption-test#L36).
+The e2e tests install aws-node-termination-handler using Helm and set the metadata url [here](https://github.com/Guillermogsjc/aws-node-termination-handler/blob/main/test/e2e/spot-interruption-test#L36).
 This becomes where aws-node-termination-handler looks for metadata; other applications on the node still look at the real
 EC2 metadata service.
 
-We set the metadata url environment variable [here](https://github.com/aws/aws-node-termination-handler/blob/main/test/k8s-local-cluster-test/run-test#L18)
-for the local tests that use a kind cluster, and [here](https://github.com/aws/aws-node-termination-handler/blob/main/test/eks-cluster-test/run-test#L117)
+We set the metadata url environment variable [here](https://github.com/Guillermogsjc/aws-node-termination-handler/blob/main/test/k8s-local-cluster-test/run-test#L18)
+for the local tests that use a kind cluster, and [here](https://github.com/Guillermogsjc/aws-node-termination-handler/blob/main/test/eks-cluster-test/run-test#L117)
 for the eks-cluster e2e tests.
 
-Check out the [ReadMe](https://github.com/aws/aws-node-termination-handler/tree/main/test) in our test folder for more
+Check out the [ReadMe](https://github.com/Guillermogsjc/aws-node-termination-handler/tree/main/test) in our test folder for more
 info on the e2e tests.
 
 ---

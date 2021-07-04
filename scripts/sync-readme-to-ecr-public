@@ -9,7 +9,7 @@ USAGE_TEXT="See About section"
 ADDITIONAL_MSG="...
 
 **truncated due to char limits**...
-A complete version of the ReadMe can be found [here](https://github.com/aws/aws-node-termination-handler#aws-node-termination-handler)\""
+A complete version of the ReadMe can be found [here](https://github.com/Guillermogsjc/aws-node-termination-handler#aws-node-termination-handler)\""
 
 
 if git --no-pager diff --name-only HEAD^ HEAD | grep 'README.md'; then

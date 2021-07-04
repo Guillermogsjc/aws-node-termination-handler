@@ -154,7 +154,7 @@ increment_chart() {
 verify_origin_tracking() {
     origin=$(git remote get-url origin 2>&1) || true
 
-    if [[ $origin == "fatal: No such remote 'origin'" ]] || [[ $origin == "https://github.com/aws/aws-node-termination-handler.git" ]]; then
+    if [[ $origin == "fatal: No such remote 'origin'" ]] || [[ $origin == "https://github.com/Guillermogsjc/aws-node-termination-handler.git" ]]; then
         echo -e "❌ ${RED}Expected remote 'origin' to be tracking fork but found \"$origin\". Set it up before running this script again.${RESET_FMT}"
         NEED_ROLLBACK=false
         exit 1
@@ -313,7 +313,7 @@ handle_errors() {
 
 sync_local_tags_from_remote() {
     # setup remote upstream tracking to fetch tags
-    git remote add the-real-upstream https://github.com/aws/aws-node-termination-handler.git &> /dev/null || true
+    git remote add the-real-upstream https://github.com/Guillermogsjc/aws-node-termination-handler.git &> /dev/null || true
     git fetch the-real-upstream
 
     # delete all local tags

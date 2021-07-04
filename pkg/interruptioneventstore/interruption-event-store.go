@@ -19,8 +19,8 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/aws/aws-node-termination-handler/pkg/config"
-	"github.com/aws/aws-node-termination-handler/pkg/monitor"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/config"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/monitor"
 )
 
 // Store is the drain event store data structure

@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-node-termination-handler/pkg/config"
-	"github.com/aws/aws-node-termination-handler/pkg/uptime"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/config"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/uptime"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	corev1 "k8s.io/api/core/v1"

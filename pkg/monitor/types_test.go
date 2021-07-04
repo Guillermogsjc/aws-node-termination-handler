@@ -17,8 +17,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-node-termination-handler/pkg/monitor"
-	h "github.com/aws/aws-node-termination-handler/pkg/test"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/monitor"
+	h "github.com/Guillermogsjc/aws-node-termination-handler/pkg/test"
 )
 
 func TestTimeUntilEvent(t *testing.T) {

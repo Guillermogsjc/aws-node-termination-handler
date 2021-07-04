@@ -18,7 +18,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/aws/aws-node-termination-handler/pkg/monitor"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/monitor"
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/autoscaling"

@@ -19,10 +19,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-node-termination-handler/pkg/ec2metadata"
-	"github.com/aws/aws-node-termination-handler/pkg/monitor"
-	"github.com/aws/aws-node-termination-handler/pkg/monitor/scheduledevent"
-	h "github.com/aws/aws-node-termination-handler/pkg/test"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/ec2metadata"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/monitor"
+	"github.com/Guillermogsjc/aws-node-termination-handler/pkg/monitor/scheduledevent"
+	h "github.com/Guillermogsjc/aws-node-termination-handler/pkg/test"
 )
 
 const (
