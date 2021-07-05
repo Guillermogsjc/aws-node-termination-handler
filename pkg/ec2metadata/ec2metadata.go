@@ -343,6 +343,7 @@ func (e *Service) GetNodeMetadata() NodeMetadata {
 	metadata.PublicHostname, _ = e.GetMetadataInfo(PublicHostnamePath)
 	metadata.PublicIP, _ = e.GetMetadataInfo(PublicIPPath)
 
+	log.Info().Msg("Using SBD image for aws-node-termination-handler")
 	log.Info().Interface("metadata", metadata).Msg("Startup Metadata Retrieved")
 
 	return metadata
